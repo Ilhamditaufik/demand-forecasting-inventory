@@ -1,0 +1,8 @@
+metric,value
+Nominal interval coverage (%),80.0
+Empirical coverage (%),71.42857142857143
+Days covered,20.0
+Total test days,28.0
+Mean interval width (units),7235.352226395741
+Median interval width (units),7214.275698733658
+Mean width / mean actual (%),17.11603685108985

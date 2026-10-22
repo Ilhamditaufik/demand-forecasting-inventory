@@ -1,0 +1,7 @@
+metric,value
+WAPE (%),88.88669224907191
+MAE (units),1.2323548704493277
+RMSE (units),2.7594593733845554
+Number of series,30490.0
+Training days,1885.0
+Test days,28.0

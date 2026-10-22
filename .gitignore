@@ -1,0 +1,55 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/README.md
+data/processed/*
+
+# Large trained model artifacts
+outputs/tft_checkpoints/
+outputs/*.ckpt
+outputs/lightgbm_demand_model.txt
+*.joblib
+*.pkl
+
+# Temporary files and logs
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+# Keep dashboard input reports tracked.
+# Do not ignore the entire reports/ directory.
+# Do not ignore dashboard charts unless they are temporary.
+
+# Lightning training logs
+lightning_logs/
+
+# Model checkpoints
+outputs/tft_checkpoints/
+outputs/*.ckpt
+
+# Trained LightGBM model
+outputs/lightgbm_demand_model.txt
